@@ -13,6 +13,7 @@ opts = {
         "ctime": ('текущее время', 'сейчас времени', 'который час'),
         "radio": ('включи музыку', 'воспроизведи радио', 'включи радио'),
         "stupid1": ('расскажи анекдот', 'рассмеши меня', 'ты знаешь анекдоты')
+        "mod9": ('включи светомузыку', 'светомузыка', 'режим светомузыка')
     }
 }
 
@@ -72,6 +73,10 @@ def execute_cmd(cmd):
     elif cmd == 'radio':
         # play audio
         os.system("D:\\streamb.m3u")
+
+    elif cmd == 'mod9':
+        # light audio E-motion
+        os.system('echo "MOD 1" >/dev/udp/192.168.1.239/3002')
 
     elif cmd == 'stupid1':
         # talk fun story
