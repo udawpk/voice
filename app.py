@@ -5,7 +5,7 @@ from fuzzywuzzy import fuzz
 import pyttsx3
 import datetime
 
-# настройки
+# settings
 opts = {
     "alias": ('вероника', 'ника', 'вера', 'кроха'),
     "tbr": ('скажи', 'расскажи', 'покажи', 'сколько', 'произнеси'),
