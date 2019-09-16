@@ -8,14 +8,16 @@ sudo apt-get install python3-pip
 sudo pip3 install virtualenv
 mkdir voice && cd voice
 virtualenv env
+source env/bin/activate
 git clone https://github.com/udawpk/voice.git
 cd voice/
 ```
-### To install on Python 3.6 
 please install requirements from requirements.txt
+
 ```bash
 pip install -r requirements.txt
 ```
+and run script
 
 ### Install RHVoice on Ubuntu 16.04 - 18.04
 ```bash
