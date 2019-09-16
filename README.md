@@ -1,5 +1,5 @@
 # voice_assistant
-### Install python 3.6
+### Install python 3.6 on Ubuntu 16.04 - 18.04
 ```bash
 sudo add-apt-repository ppa:jonathonf/python-3.6
 sudo apt-get update
